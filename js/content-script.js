@@ -8,7 +8,7 @@ currentDate = new Date();
 daysPublished = Math.round(Math.abs((currentDate.getTime() - utcDate.getTime())/(86400000)));
 totalRevenue = price * totalSales;
 
-perDayRevenue = Math.floor(totalRevenue / daysPublished);
+perDayRevenue = Math.floor((totalRevenue / daysPublished) / 2);
 perDaySales = totalSales / daysPublished;
 
 

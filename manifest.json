@@ -1,0 +1,16 @@
+{
+  "name": "ThemeForest Sales Analyzer",
+  "description": "Quickly see basic revenue & per-day sales for a ThemeForest product.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Analyse this product's sales"
+  },
+  "manifest_version": 2
+}

@@ -44,3 +44,12 @@
 #tandem:hover {
 	color: #FFF;
 }
+@media screen and (max-width:900px) {
+	.desktop {
+		display: none;
+	}
+	#salesAnalyser #info {
+		right: 0;
+		font-size: 14px;
+	}
+}

@@ -13,10 +13,10 @@ perDaySales = totalSales / daysPublished;
 
 
 newDiv.innerHTML = 	'<div class="grid-container">' +
-					'<span id="analyser"><span>Envato</span>Analyser</span>Total Revenue: <strong>' + accounting.formatMoney(totalRevenue) +
-					'</strong> &nbsp; Profit: <strong>' + accounting.formatMoney(totalRevenue / 2) + '</strong> &nbsp;<span id="info">' +
-					'Revenue per Day: <strong>' + accounting.formatMoney(perDayRevenue) + "</strong> &nbsp; Sales per day: <strong>" +
-					perDaySales.toFixed(2) + "</strong>" + '</span></div><a href="http://www.builtbytandem.com/foundry" target="_blank" id="tandem">Tandem</a>';
+					'<span id="analyser"><span>Envato</span>Analyser</span><span class="desktop">Total Revenue: <strong>' + accounting.formatMoney(totalRevenue) +
+					'</strong> &nbsp; Profit: <strong>' + accounting.formatMoney(totalRevenue / 2) + '</strong> &nbsp;</span><span id="info">' +
+					'Revenue per Day: <strong>' + accounting.formatMoney(perDayRevenue) + '</strong><span class="desktop"> &nbsp; Sales per day: <strong>' +
+					perDaySales.toFixed(2) + "</strong></span>" + '</span></div>';
 
 document.body.insertBefore(newDiv, document.body.firstChild);
 document.body.style.paddingTop = "48px";

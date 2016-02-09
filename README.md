@@ -2,7 +2,7 @@
 
 ![Built by Tandem](http://i.imgur.com/Cvjrupo.png)
 
-<img src="https://img.shields.io/badge/Release-v0.1.0-green.svg?style=flat-square">
+<img src="https://img.shields.io/badge/Release-v1.0.0-green.svg?style=flat-square">
 
 Envato Analyser is a small Chrome Extension that calculates and displays useful bits of information about an Envato item. It was built by the guys at [Tandem](http://www.builtbytandem.com), and is used to help make competitive monitoring easier on ThemeForest.
 
